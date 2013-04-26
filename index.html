@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Asaeli Matelau's JQuery Game for CS4450!</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" type ="text/javascript"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body >
+      
+        <header><h1> Guess The Celebrity! </h1></header>
+       <div class ="curtain">
+       </div>
+
+     <p class="controls" >
+        <form action="javascript:alert('success!');">
+        <input type="button" value="Begin" id="start"/> 
+        <span id="answer"></span>       
+        </form>   
+         <p id="timer"style="color:white"></p> 
+        <br/>
+        <div class="choice">
+            <input id="choice_1" type="radio" name="choice" value="choice_1" />
+            <label for="choice_1">Anne Hathaway</label>
+        </div>
+        
+        <div class="choice">
+            <input id="choice_2" type="radio" name="choice" value="choice_2" />
+            <label for="choice_2">Katy Perry</label>
+        </div>
+
+
+        <div class="choice">    
+            <input id="choice_3" type="radio" name="choice" value="choice_3" />
+            <label for="choice_3">Nicki Minaj</label>
+        </div>
+ 
+        <div class="response">
+            <h1><div id="valid"> Correct!</div>
+            <div id="invalid">Incorrect! </div>
+            <div id="gameover"> Game Over! You Won!!</div></h1>
+        </div>
+        </p>
+
+        
+
+       
+
+
+
+        <p class = 'details'>How To Play: <br/>Try Figuring out whom each image is of before time runs out! <br/>Click On Begin once you are ready and reset to get another try.. </p>
+
+
+    </body>
+</html>
